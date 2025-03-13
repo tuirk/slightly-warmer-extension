@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slightly Warmer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <h1>Slightly Warmer</h1>
+      
+      <!-- API Key Section -->
+      <div class="section" id="apiKeySection">
+        <h2>OpenAI API Key</h2>
+        <input type="password" id="apiKey" placeholder="Enter your OpenAI API key">
+        <button id="saveApiKey">Save API Key</button>
+      </div>
+
+      <!-- Settings Section -->
+      <div class="section" id="settingsSection">
+        <h2>Settings</h2>
+        <div class="setting-item">
+          <label>Writing Style:</label>
+          <textarea id="writingStyle" placeholder="Describe your preferred writing style..."></textarea>
+        </div>
+        <div class="setting-item">
+          <label>
+            <input type="checkbox" id="useEmojis">
+            Include emojis in responses
+          </label>
+        </div>
+        <div class="setting-item">
+          <label>Banned Words:</label>
+          <input type="text" id="bannedWords" placeholder="Enter words to avoid (comma-separated)">
+        </div>
+        <button id="saveSettings">Save Settings</button>
+      </div>
+
+      <!-- Status Message -->
+      <div id="status" class="status"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
