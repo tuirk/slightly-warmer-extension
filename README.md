@@ -18,7 +18,7 @@ I built Slightly Warmer to make showing up online feel less like an algorithm ch
 
 This tool is for when you still want to play the game, but bring a bit of yourself to it anyway.
 
-### 🌟 Slightly Warmer Branding – Canva Previews
+### 🧊 Slightly Warmer Branding – Canva Previews
 
 [![1](https://github.com/tuirk/slightly-warmer-extension/raw/main/SlightlyWarmerBrandingCanva/1.png)](https://www.canva.com/design/DAGnNQaHgUs/QfmHCaUUmJDLa18v_lfG5Q/view)
 [![2](https://github.com/tuirk/slightly-warmer-extension/raw/main/SlightlyWarmerBrandingCanva/2.png)](https://www.canva.com/design/DAGnNQaHgUs/QfmHCaUUmJDLa18v_lfG5Q/view)
